@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="base.css">
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -95,6 +96,133 @@
         </div>
       </div>
     </header>
+
+       <!-- Hero Section -->
+       <section class="relative min-h-screen flex items-center justify-center">
+        <!-- Award Badge -->
+        <div class="absolute left-6 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <div class=" p-4 flex items-center flex-col justify-center max-w-xs">
+                <div class="text-yellow-400 mb-2">
+                    <img src="/assets/no1.png" alt="">
+                </div>
+                <div class="text-xs font-medium mb-2">Most Promising</div>
+                <div class="text-xs font-medium mb-2">Franchise Brand</div>
+                <div class="text-yellow-400 mb-2">
+                  <img src="/assets/bestRestro.png" alt="">
+                </div>
+                <div class="text-xs font-medium mb-2">RESTAURANT</div>
+                <div class="text-xs font-medium">BEST RESTAURANT</div>
+                <div class="text-xs font-medium">AWARD 2023</div>
+            </div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="absolute right-6 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <div class="flex flex-col space-y-4">
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 transition-colors">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 transition-colors">
+                    <i class="fab fa-facebook text-xl"></i>
+                </a>
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 transition-colors">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="#" class="text-yellow-400 hover:text-yellow-300 transition-colors">
+                    <i class="fab fa-youtube text-xl"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="text-center max-w-6xl mx-auto relative">
+            <h1 class="text-yellow-400 text-sm font-medium mb-8 tracking-wider">WELCOME TO THE BIGGEST</h1>
+            
+            <!-- Large BURGER Text with Image -->
+            <div class="relative">
+                <div class="text-white select-none text-[250px] font-bold">
+                    BURGER
+                </div>
+                <!-- Burger Image Overlay -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <img src="/assets/burger1.png" alt="Delicious Burger" class="w-150 object-contain">
+                </div>
+            </div>
+            
+            <div class="mt-2">
+                <h2 class="text-yellow-400 text-lg font-medium tracking-wider mb-6">CHAIN IN INDIA</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto text-sm leading-relaxed">
+                    Join millions of burger lovers across India who crave the sizzling taste, bold flavors, and unforgettable experience of Biggies Burger.
+                </p>
+            </div>
+            <div class="absolute bottom-20 right-44 hidden lg:block">
+              <div class="w-28 h-28 border-2 border-yellow-400 rounded-full flex items-center justify-center">
+                  <div class="text-center">
+                      <div class="text-yellow-400 text-2xl font-bold">14</div>
+                      <div class="text-xs">YEARS</div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- 14 Years Badge -->
+        
+    </section>
+
+    <!-- Success Statistics Section -->
+    <section class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-yellow-400 text-sm font-medium mb-4 tracking-wider">THE SUCCESS OF</h2>
+                <h3 class="text-white text-3xl md:text-4xl font-bold">BIGGIES BURGER</h3>
+            </div>
+
+            <div class="relative">
+                <!-- Central Burger Image -->
+                <div class="flex justify-center mb-16">
+                    <img src="/placeholder.svg?height=500&width=400" alt="Deconstructed Burger" class="w-80 h-96 object-contain">
+                </div>
+
+                <!-- Statistics Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <!-- 130+ Stores -->
+                    <div class="space-y-2">
+                        <div class="stats-number text-white">130+</div>
+                        <p class="text-gray-400 text-sm">Stores Of Biggies<br>Burger</p>
+                    </div>
+
+                    <!-- 67+ Franchise -->
+                    <div class="space-y-2">
+                        <div class="stats-number text-white">67+</div>
+                        <p class="text-gray-400 text-sm">Franchise<br>Entrepreneur</p>
+                    </div>
+
+                    <!-- 24+ Cities -->
+                    <div class="space-y-2">
+                        <div class="stats-number text-white">24+</div>
+                        <p class="text-gray-400 text-sm">Cities PAN India</p>
+                    </div>
+
+                    <!-- 70+ Lakh -->
+                    <div class="space-y-2">
+                        <div class="stats-number text-white">70+</div>
+                        <p class="text-gray-400 text-sm">Lakh Burgers Sold</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Description and CTA -->
+            <div class="text-center mt-16">
+                <p class="text-gray-300 max-w-2xl mx-auto text-sm leading-relaxed mb-8">
+                    Join millions of burger lovers across India who crave the sizzling taste, bold flavors, and unforgettable experience of Biggies Burger.
+                </p>
+                <button class="bg-yellow-400 text-black px-8 py-3 font-bold text-sm hover:bg-yellow-300 transition-colors">
+                    JOIN US TODAY
+                </button>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer Section -->
     <footer class="py-10 bg-black text-white px-16">
@@ -243,5 +371,22 @@
         <span>ENGLISH / HINDI</span>
       </div>
     </footer>
+    <section class="loader">
+      <div class="loading-container">
+        <div class="emoji-bounce">
+          <span id="emoji">🍔</span>
+        </div>
+        <div class="loading-text">
+          Loading... <span id="progress">0%</span>
+        </div>
+      </div>
+    
+      <div class="transition-line">
+        <div class="word-roller" id="wordRoller">
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="loader.js"></script>
 </html>
